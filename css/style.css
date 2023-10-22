@@ -1,0 +1,163 @@
+body {
+    margin: 0%;
+}
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 5vh;
+    padding-top: 7%;
+}
+
+.sale {
+    text-align: center;
+    height: 37.5vh;
+    margin: 15px;
+    margin-bottom: 0;
+    overflow: auto;
+}
+
+.category {
+    text-align: center;
+    height: 20vh;
+    margin: 15px;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.brands {
+    text-align: center;
+    height: 12.5vh;
+    margin: 15px;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    height: 15vh;
+    margin-top: 15px;
+}
+
+.imgMenu{
+    height: 100%;
+}
+
+#imgMenu {
+    float: left;
+    padding-left: 30px;
+}
+
+#imgSearch {
+    float: right;
+    padding-right: 30px;
+}
+
+.imgSale {
+    height: 100%;
+}
+
+.imgCategory {
+    height: 90%;
+    padding: 10px;
+}
+
+.imgBrands {
+    height: 50%;
+    padding: 10px;
+}
+
+.kalenderFilter {
+    background-color: darkgray;
+    color: white;
+    margin: 15px;
+    margin-bottom: 0;
+    height: 15vh;
+    text-align: center;
+    padding-top: 2.5vh;
+}
+
+.kalenderKnapper {
+    float: left;
+    margin-left: 60px;
+    height: 3vh;
+    background-color: black;
+}
+
+#releaseText {
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 3vh;
+    background-color: black;
+}
+
+.release {
+    background-color: darkgray;
+    color: white;
+    margin: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.releaseText {
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 3vh;
+    background-color: black;
+}
+
+.bigProdukt {
+    background-color: white;
+    color: white;
+    height: 35vh;
+    margin: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.bigImage {
+    height: 100%;
+}
+
+.rows {
+    background-color: white;
+    height: 10vh;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+.rowImage {
+    height: 100%;
+    padding: 12px;
+}
+
+#border {
+    border: 5px solid #555;
+}
+
+.shoeInfo {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+.venstre {
+    float: left;
+}
+
+.hoyre {
+    float: right;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    height: 7vh;
+    padding-top: 5vh;
+}
+
