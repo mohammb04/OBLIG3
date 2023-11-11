@@ -7,25 +7,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="header">
-        <img class="imgMenu" id="imgMenu" src="img/icons/menu.png">
-        SNIKR
-        <img class="imgSale" id="imgSearch" src="img/icons/search.png">
-    </div>
-    <div class="kalenderFilter">
-        <p id="releaseText">RELEASE KALENDER</p>
-        <p class="kalenderKnapper">KOMMENDE</p>
-        <p class="kalenderKnapper">KOMMET UT</P>
-    </div>
-    <div class="release">
-        <img src="img/sko/brown_jordans.webp">
-        <p class="releaseText">Jordan 1 Retro High</p>
-        <p class="releaseText">OCT 05</p>
-    </div>
-    <div class="release">
-        <img src="img/sko/white_black_dunks.webp">
-        <p class="releaseText">Nike Dunk Low</p>
-        <p class="releaseText">OCT 06</p>
-    </div>
+    <header>
+        <header class="header">
+            <a href="index.html" class="logo">SNIKR</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"aria-label="Menu button">Menu<span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="index.html" aria-label="Home Button">Hjem</a></li>
+              <li><a href="produkt.html"aria-label="Product Button">Produkt</a></li>
+              <li><a href="kalender.html"aria-label="About us button">Kalender</a></li>
+            </ul>
+          </header>
+    </header>
+
+    <main class="mainKalender">
+        <section>
+            <div class="kalenderFilter">
+                <p id="releaseText">RELEASE KALENDER</p>
+                <p class="kalenderKnapper">KOMMENDE</p>
+                <p class="kalenderKnapper">KOMMET UT</P>
+            </div>
+        </section>
+        <section class="kalenderItems">
+            <div class="release">
+                <img src="img/sko/brown_jordans.webp">
+                <p class="releaseText">Jordan 1 Retro High</p>
+                <p class="releaseText">OCT 05</p>
+            </div>
+            <div class="release">
+                <img src="img/sko/white_black_dunks.webp">
+                <p class="releaseText">Nike Dunk Low</p>
+                <p class="releaseText">OCT 06</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            test
+        </div>
+    </footer>
 </body>
 </html>

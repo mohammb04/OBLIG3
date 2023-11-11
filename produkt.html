@@ -7,35 +7,55 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="header">
-        <img class="imgMenu" id="imgMenu" src="img/icons/menu.png">
-        SNIKR
-        <img class="imgSale" id="imgSearch" src="img/icons/search.png">
-    </div>
-    <div class="bigProdukt">
-        <img class="bigImage" src="img/sko/big.webp">
-    </div>
-    <div class="rows">
-        <img class="rowImage" id="border" src="img/sko/big.webp">
-        <img class="rowImage" src="img/sko/row1.webp">
-        <img class="rowImage" src="img/sko/row2.webp">
-    </div>
-    <div class="shoeInfo">
-        <p class="venstre">Nike Air Force 1 Low</p>
-        <p class="hoyre">1399,00kr</p>
-        <br>
-        <br>
-        <br>
-        <p class="venstre">STØRRELSE:</p>
-        <p class="hoyre">46 EUR</p>
-        <br>
-        <br>
-        <br>
-        <p class="venstre">FARGE:</p>
-        <p class="hoyre">HVIT</p>
-    </div>
-    <div class="button">
-        LEGG TIL I KURV
-    </div>
+    <header>
+        <header class="header">
+            <a href="index.html" class="logo">SNIKR</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"aria-label="Menu button">Menu<span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="index.html" aria-label="Home Button">Hjem</a></li>
+              <li><a href="produkt.html"aria-label="Product Button">Produkt</a></li>
+              <li><a href="kalender.html"aria-label="About us button">Kalender</a></li>
+            </ul>
+          </header>
+    </header>
+
+    <main>
+        <section>
+            <div class="bigProdukt">
+                <img class="bigImage" src="img/sko/big.webp">
+            </div>
+            <div class="rows">
+                <img class="rowImage" id="border" src="img/sko/big.webp">
+                <img class="rowImage" src="img/sko/row1.webp">
+                <img class="rowImage" src="img/sko/row2.webp">
+            </div>
+        </section>
+        <section>
+            <div class="shoeInfo">
+                <p class="venstre">Nike Air Force 1 Low</p>
+                <p class="hoyre">1399,00kr</p>
+                <br>
+                <br>
+                <br>
+                <p class="venstre">STØRRELSE:</p>
+                <p class="hoyre">46 EUR</p>
+                <br>
+                <br>
+                <br>
+                <p class="venstre">FARGE:</p>
+                <p class="hoyre">HVIT</p>
+            </div>
+            <div class="button">
+                LEGG TIL I KURV
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            test
+        </div>
+    </footer>
 </body>
 </html>

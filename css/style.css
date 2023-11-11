@@ -1,3 +1,67 @@
+@media (min-width:1000px) {
+    .sale {
+        margin-top: 150px;
+    }
+    .bigProdukt {
+        display: grid;
+        position: relative;
+        justify-content: center;
+        top: 70px;
+        height: 300vh;
+    }
+    .kalenderFilter{
+        max-width: 688px;
+    }
+    .release{
+        max-width: 350px;
+    }
+    .mainKalender {
+        display: grid;
+        position: relative;
+        justify-content: center;
+    }
+    .kalenderItems {
+        display: flex;
+    }
+}
+@media (min-width:1500px) {
+    .sale {
+        margin-top: 300px;
+        height: 70vh;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    .imgSale {
+        display: grid;
+        min-width: 900px;
+        min-height: 900px;
+    }
+    .category {
+        top: 500px;
+    }
+    .imgCategory {
+        min-height: 425px;
+    }
+    .brands {
+        top: 750px;
+    }
+    .imgBrands {
+        min-height: 130px;
+    }
+    .bigProdukt {
+        display: grid;
+        position: relative;
+        justify-content: center;
+        top: 70px;
+    }
+}
+@media (min-width:4000px) {
+    .sale {
+        margin-top: 450px;
+    }
+}
+
 body {
     margin: 0%;
 }
@@ -13,8 +77,11 @@ body {
     text-align: center;
     height: 37.5vh;
     margin: 15px;
+    margin-top: 75px;
     margin-bottom: 0;
-    overflow: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
 }
 
 .category {
@@ -23,6 +90,8 @@ body {
     margin: 15px;
     margin-bottom: 0;
     display: flex;
+    position: relative;
+    justify-content: center;
 }
 
 .brands {
@@ -31,13 +100,8 @@ body {
     margin: 15px;
     margin-bottom: 0;
     display: flex;
-}
-
-.footer {
-    background-color: black;
-    text-align: center;
-    height: 15vh;
-    margin-top: 15px;
+    position: relative;
+    justify-content: center;
 }
 
 .imgMenu{
@@ -78,6 +142,10 @@ body {
     padding-top: 2.5vh;
 }
 
+.mainKalender {
+    margin-top: 15vw;
+}
+
 .kalenderKnapper {
     float: left;
     margin-left: 60px;
@@ -108,7 +176,7 @@ body {
 }
 
 .bigProdukt {
-    background-color: white;
+    background-color: none;
     color: white;
     height: 35vh;
     margin: 15px;
@@ -160,4 +228,163 @@ body {
     height: 7vh;
     padding-top: 5vh;
 }
+
+.footer {
+    margin-top: 50px;
+    background-color: black;
+    height: 30vh;
+}
+
+
+
+
+
+
+
+.menu-icon{
+
+   position: relative;
+   display: flex;
+   float: right;
+
+}
+
+
+a {
+    color: white;
+  }
+
+
+
+  .header {
+    background-color: black;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+
+  }
+
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+
+
+
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+
+
+
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 20px;
+    padding-right: 60px;
+    position: relative;
+    user-select: none;
+  }
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: .2s ease-out;
+    width: 18px;
+
+  }
+
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+
+
+
+  .header .menu-btn {
+    display: none;
+
+  }
+
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+
+
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
 
