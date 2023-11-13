@@ -23,9 +23,9 @@
     </header>
 
     <main>
-        <section>
+        <section itemscope itemtype="http://schema.org/Product">
             <div class="bigProdukt">
-                <img class="bigImage" src="img/sko/big.webp" alt="Bilde av Nike Air Force 1">
+                <img class="bigImage" src="img/sko/big.webp" alt="Bilde av Nike Air Force 1" itemprop="image">
             </div>
             <div class="rows">
                 <img class="rowImage" id="border" src="img/sko/big.webp" alt="Bilde av Nike Air Force 1">
@@ -35,20 +35,20 @@
         </section>
         <section>
             <div class="shoeInfo">
-                <p class="venstre">Nike Air Force 1 Low</p>
-                <p class="hoyre">1399,00kr</p>
+                <p class="venstre" itemprop="name">Nike Air Force 1 Low</p>
+                <p class="hoyre" itemprop="offers" itemscope itemtype="http://schema.org/Offer">1399,00kr<meta itemprop="priceCurrency" content="NOK"></p>
                 <br>
                 <br>
                 <br>
                 <p class="venstre">STØRRELSE:</p>
-                <p class="hoyre">46 EUR</p>
+                <p class="hoyre" itemprop="size">46 EUR</p>
                 <br>
                 <br>
                 <br>
                 <p class="venstre">FARGE:</p>
-                <p class="hoyre">HVIT</p>
+                <p class="hoyre" itemprop="color">HVIT</p>
             </div>
-            <div class="button" aria-label="Trykk for å legge til sko i kurven din">
+            <div class="button" aria-label="Trykk for å legge til sko i kurven din" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                 LEGG TIL I KURV
             </div>
         </section>
